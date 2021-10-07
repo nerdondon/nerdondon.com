@@ -13,7 +13,7 @@ contentTypeName = "posts"
 defaultTheme = "dark"
 
 # if you set this to 0, only submenu trigger will be visible
-showMenuItems = 5
+showMenuItems = 4
 
 # Show reading time in minutes for posts
 showReadingTime = false
@@ -25,6 +25,10 @@ showReadingTime = false
 # Show full page content in RSS feed items
 # (default is Description or Summary metadata in the front matter)
 # rssFullText = true
+
+enableGitInfo = true
+
+lastModDisplay = "Last modified at:"
 
 [languages]
 
@@ -61,6 +65,21 @@ name = "About"
 url = "/about"
 
 [[languages.en.menu.main]]
+identifier = "archive"
+name = "Posts"
+url = "/archive"
+
+[[languages.en.menu.main]]
 identifier = "reading-list"
 name = "Reading List"
 url = "/reading-list"
+
+[[languages.en.menu.main]]
+identifier = "cool-shit"
+name = "Cool Shit"
+url = "/cool-shit"
+
+[[languages.en.menu.main]]
+identifier = "interview-prep"
+name = "Interview Prep"
+url = "/interview-prep"
