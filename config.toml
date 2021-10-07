@@ -62,26 +62,31 @@ logoHomeLink = "/"
 identifier = "about"
 name = "About"
 url = "/about"
+weight = 1
 
 [[languages.en.menu.main]]
 identifier = "archive"
 name = "Posts"
 url = "/archive"
+weight = 2
 
 [[languages.en.menu.main]]
 identifier = "reading-list"
 name = "Reading List"
 url = "/reading-list"
+weight = 3
 
 [[languages.en.menu.main]]
 identifier = "cool-shit"
 name = "Cool Shit"
 url = "/cool-shit"
+weight = 4
 
 [[languages.en.menu.main]]
 identifier = "interview-prep"
 name = "Interview Prep"
 url = "/interview-prep"
+weight = 5
 
 [frontmatter]
 lastmod = ['lastmod', ':default']
