@@ -4,6 +4,7 @@ title = 'nerdondon'
 theme = 'hugo-theme-hello-friend'
 paginate = 10
 enableGitInfo = true
+googleAnalytics = 'G-G9DH6KSKM8'
 
 [params]
 # dir name of your blog content (default is `content/posts`).
