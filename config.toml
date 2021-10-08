@@ -52,8 +52,8 @@ readOtherPosts = "Read other posts"
 newerPosts = "Newer posts"
 olderPosts = "Older posts"
 minuteReadingTime = "min read"
-dateFormatSingle = "2006-01-02"
-dateFormatList = "2006-01-02"
+dateFormatSingle = "Jan 01, 2006"
+dateFormatList = "Jan 01, 2006"
 # leave empty to disable, enter display text to enable
 lastModDisplay = "Last modified at:"
 
