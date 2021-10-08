@@ -1,4 +1,4 @@
-baseURL = 'https://nerdondon.com/'
+baseURL = 'https://www.nerdondon.com/'
 languageCode = 'en-us'
 title = 'nerdondon'
 theme = 'hugo-theme-hello-friend'
