@@ -1,6 +1,7 @@
 ---
 title: 'Cool Shit'
 date: 2021-10-07T07:40:12Z
+logoText: 'cat cool-shit'
 ---
 
 Cool technical shit I wanna have a record of

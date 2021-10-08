@@ -1,6 +1,7 @@
 ---
 title: 'About'
 date: 2021-10-07T07:35:56Z
+logoText: 'whoami'
 ---
 
 ## Will Sean Don (nerdondon)

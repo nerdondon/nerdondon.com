@@ -2,6 +2,7 @@
 title: 'First Post'
 date: 2021-10-07T06:38:52Z
 description: 'First hugo post.'
+logoText: 'cat first-post.md'
 tags: [hi]
 ---
 

@@ -2,6 +2,7 @@
 title: Hi :D
 description: 'Just saying hi'
 date: '2015-02-27T00:00:00-08:00'
+logoText: 'cat old-hi.md'
 tags: [hi]
 ---
 
