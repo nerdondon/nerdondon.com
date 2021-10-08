@@ -30,6 +30,14 @@ showReadingTime = false
 
 lastModDisplay = "Last modified at:"
 
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/nerdondon"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/nerdondon"
+
 [languages]
 
 [languages.en]
