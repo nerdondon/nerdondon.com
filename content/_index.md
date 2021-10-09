@@ -14,7 +14,7 @@ Welcome to
       \\"--\\
 
 ^ its a huge gou. get it? think Chinese :).
-...it means gou is dog in Chinese but also hugo for the blog plaform.
+..."gou" means dog in Chinese but also hugo for the blog plaform.
 
 Anyway, the content will generally be techinical and about software engineering
 but I might throw in some random topics here and there.
