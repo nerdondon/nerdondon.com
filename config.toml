@@ -2,7 +2,7 @@ baseURL = 'https://www.nerdondon.com/'
 languageCode = 'en-us'
 title = 'nerdondon'
 theme = 'hugo-theme-hello-friend'
-paginate = 10
+paginate = 6
 enableGitInfo = true
 googleAnalytics = 'G-G9DH6KSKM8'
 
