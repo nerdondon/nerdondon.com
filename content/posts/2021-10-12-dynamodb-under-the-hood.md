@@ -74,10 +74,29 @@ talk by Jaso Sorenson. The talk was given at AWS re:Invent 2018. Watch on YouTub
 - A token bucket will fill to a max capacity that is a multiple of your provisioned capapcity. This
   allows for bursty traffic.
 
+### Global Tables
+
+- Global tables can be thought of as an external service on top of DDB. It still has to go through a
+  request router to replicate data from one region to the other.
+
+- There is a stream reader (called `RepOut`) that consumes changes from DDB streams of the "child"
+  (my word) tables that compose a DDB global table.
+
+- There is a challenge that, when there is a partition split, you need a `RepOut` process reading
+  from the DDB stream shard of the new partition.
+
+- A `ReplAdmin` process will watch metadata about partitions from the DDB control plane and start a
+  workflow that will tell a process in the `RepOut` process pool to begin processing from the new
+  partition.
+
+- `RepOut` will send batched replication messages to a destination regions `RepIn` service that will
+  drive replication through request routers at the destination region. Once this replication is
+  done, `RepIn` will notify `RepOut` of success and the stream will be checkpointed.
+
 ### TODO
 
-- Rest of talk. My interest is currently in the first part of the talk because of development on
-  RainDB.
+- Maybe rest of talk about DDB specific backup mechanisms. The parts with notes are more generic and
+  more interesting especially due to my current side-project developing RainDB.
 
 ## Useful references
 
