@@ -1,5 +1,5 @@
 ---
-title: "[Notes]: `flock` vs fcntl`"
+title: "[Notes]: `flock` vs `fcntl`"
 date: 2021-10-17T00:00:00-08:00
 description: "Notes on *nix file locking"
 tags: [notes, file-system, unix, posix, locking]
