@@ -52,21 +52,11 @@ This is gonna be a long one lol...There's a lot to know about the event loop.
   rendering logic
 
 - When you want to run code with the render steps, you would use a
-  [requestAnimationFrame]({{site.url}}/rAF-notes) callback. Conceptually, the render steps are on
-  the complete other side of the task queues. Visually...see below:
-  <figure>
-    <a href="https://vimeo.com/254947206">
-      <img src="{{site.url}}/images/archibald-event-loop.png" alt="">
-    </a>
-    <figcaption>
-      <a
-        href="https://vimeo.com/254947206"
-        title="Event loop screen capture from Jake Archibald's talk The Event Loop"
-      >
-        Event loop screen capture from Jake Archibald's talk The Event Loop.
-      </a>
-    </figcaption>
-  </figure>
+  [requestAnimationFrame]({{< ref "/posts/2018-03-08-rAF-notes" >}}) callback. Conceptually, the
+  render steps are on the complete other side of the task queues. Visually...see below screenshot
+  from [Jake Archibald's talk](https://vimeo.com/254947206)):
+
+  {{< figure src="/images/archibald-event-loop.png" caption="Event loop screen capture from Jake Archibald's talk The Event Loop." >}}
 
 - So far what we have is, on a turn of the event loop **where a render is necessary**:
 

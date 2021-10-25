@@ -51,19 +51,7 @@ talk focuses on arrays and JS engine optimizations around array operations.
   holey array. However, if you fill in the holes, V8 won't go back and classify the array as packed
   again. Mathias says that these transitions can be visualized as a lattice (see figure below).
 
-<figure>
-    <a href="https://www.youtube.com/watch?v=m9cTaYI95Zc">
-      <img src="{{site.url}}/images/mathias-bynens-V8-lattice.png" alt="">
-    </a>
-    <figcaption>
-      <a
-        href="https://www.youtube.com/watch?v=m9cTaYI95Zc"
-        title="Lattice screen capture from Mathias Bynens' talk"
-      >
-        Lattice screen capture from Mathias Bynens' talk
-      </a>
-    </figcaption>
-  </figure>
+  {{< figure src="/images/mathias-bynens-V8-lattice.png" caption="Lattice screen capture from Mathias Bynens' talk" >}}
 
 - Try to use arrays over array-like objects. Array-like objects are integer indexed objects with a
   length property. Using array-like objects prevents V8 from fully optimizing your code even though
