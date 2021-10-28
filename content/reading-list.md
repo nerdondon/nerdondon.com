@@ -1,5 +1,5 @@
 ---
-title: 'Reading List'
+title: "Reading List"
 date: 2021-10-07T07:36:44Z
 logoText: less reading-list
 ---
@@ -24,5 +24,7 @@ Just a page to track the books that I'm reading or plan to read
 ## Read and recommended (review linked if I did one)
 
 1. Database Internals by Alex Petrov
+1. Designing Data-Intensive Applications by Martin Kleppmann
+1. Rust for Rustaceans by Jon Gjengset
 1. Grokking Algorithms by Aditya Y. Bhargava
 1. Manga Guide to Linear Algebra from No Starch Press
