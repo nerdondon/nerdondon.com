@@ -101,3 +101,4 @@ talk by Jaso Sorenson. The talk was given at AWS re:Invent 2018. Watch on YouTub
 ## Useful references
 
 - [AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database (DAT321)](https://www.youtube.com/watch?v=yvBR71D0nAQ)
+- [Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service (2022)](https://www.usenix.org/system/files/atc22-elhemali.pdf)
